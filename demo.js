@@ -12,12 +12,12 @@ const options = {
     {
       label: "Comic",
       bookExtensions: [".cbz", ".cbr"],
-      baseDir: "f:/ebooks/_deu",
+      baseDir: "f:/ebooks/_deu/_Walt Disney Comics",
       thumbsDims: [
-        {width: 83, height: 150},
-        {width: 196, height: 300},
-        {width: 329, height: 450},
-        {width: 392, height: 600}
+        {width: 100, height: 284/2},
+        {width: 200, height: 284},
+        {width: 300, height: 284*3/2},
+        {width: 400, height: 284*2}
       ],
       dimIndex: 1,
       initialFilter: "bill"

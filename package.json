@@ -1,0 +1,30 @@
+{
+  "name": "ebook-server",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "server (node.js) for the own ebook library (pdf,cbr,cbz,...)",
+  "author": {
+    "name": "Marc Kronberg",
+    "email": "krocon@gmail.com",
+    "url": "https://gui.expert/"
+  },
+  "files": [
+    "index.js",
+    "lib/dirscanner.js",
+    "lib/fileutil.js",
+    "lib/server.js"
+  ],
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "recursive-readdir": "^2.2.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krocon/ebook-server.git"
+  }
+}

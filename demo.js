@@ -12,7 +12,7 @@ const options = {
     {
       label: "Comic",
       bookExtensions: [".cbz", ".cbr"],
-      baseDir: "f:/ebooks/_deu/e",
+      baseDir: "f:/ebooks/_deu/_diverse",
       thumbsDims: [
         {width: 50, height: 284/4},
         {width: 100, height: 284/2},
@@ -21,7 +21,21 @@ const options = {
         {width: 400, height: 284*2}
       ],
       dimIndex: 1,
-      initialFilter: "bill"
+      initialFilter: ""
+    },
+    {
+      label: "Disney",
+      bookExtensions: [".cbz", ".cbr"],
+      baseDir: "f:/ebooks/_deu/_Walt Disney Comics",
+      thumbsDims: [
+        {width: 50, height: 284/4},
+        {width: 100, height: 284/2},
+        {width: 200, height: 284},
+        {width: 300, height: 284*3/2},
+        {width: 400, height: 284*2}
+      ],
+      dimIndex: 1,
+      initialFilter: ""
     }
   ]
 

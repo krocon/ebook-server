@@ -12,8 +12,9 @@ const options = {
     {
       label: "Comic",
       bookExtensions: [".cbz", ".cbr"],
-      baseDir: "f:/ebooks/_deu/_Walt Disney Comics",
+      baseDir: "f:/ebooks/_deu/e",
       thumbsDims: [
+        {width: 50, height: 284/4},
         {width: 100, height: 284/2},
         {width: 200, height: 284},
         {width: 300, height: 284*3/2},

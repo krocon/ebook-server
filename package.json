@@ -1,6 +1,6 @@
 {
   "name": "ebook-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "server (node.js) for the own ebook library (pdf,cbr,cbz,...)",
   "author": {
